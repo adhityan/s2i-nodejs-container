@@ -1,4 +1,6 @@
-FROM registry.redhat.io/rhscl/s2i-base-rhel7:1
+#docker build -t adhityan/rhel7-nodejs-14 -f Dockerfile.rhel7 .
+#docker run adhityan/rhel7-nodejs-14
+FROM registry.redhat.io/rhscl/s2i-base-rhel7
 
 # This image provides a Node.JS environment you can use to run your Node.JS
 # applications.
